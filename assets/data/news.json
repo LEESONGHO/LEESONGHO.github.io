@@ -1,0 +1,58 @@
+[
+	{
+		"date": "Jul 2026",
+		"badge": "UPCOMING",
+		"text": "Oral presentation at <a href=\"https://wccm-eccomas2026.org\" target=\"_blank\" rel=\"noopener\">WCCM-ECCOMAS 2026</a> (Munich, Germany)",
+		"sub": "In Session MS344 - Agentic AI and Physics-Informed Machine Learning for Next-Generation Design and Manufacturing",
+		"link": null
+	},
+	{
+		"date": "May 2026",
+		"badge": "NEW",
+		"text": "Three papers accepted in <em>npj Digital Medicine</em>, <em>Materials Horizons</em>, and <em>Int'l J. of Precision Engineering and Manufacturing</em>.",
+		"sub": "Research spanning healthcare anomaly detection, 4D composite design, and privacy-preserving federated learning.",
+		"link": null
+	},
+	{
+		"date": "Aug 2025",
+		"badge": null,
+		"text": "Our paper on Physics-Informed Neural Operators for Thermoelectric Properties was published in <em>npj Computational Materials</em>.",
+		"sub": "Inference of temperature-dependent properties using generalizable and label-free neural operators.",
+		"link": null
+	},
+	{
+		"date": "Mar 2023",
+		"badge": null,
+		"text": "Joined the lab at KAIST directed by Prof. Seunghwa Ryu as a Ph.D. student",
+		"sub": "Focusing on AI-CAE, PIML, and data-driven design optimization",
+		"link": null
+	},
+	{
+		"date": "Feb 2023",
+		"badge": null,
+		"text": "Successfully defended M.S. thesis (official graduation on Feb 2023)",
+		"sub": "Title: <em>(A) study on permeability prediction of fiber-reinforced composite materials based on the representative volume element</em>",
+		"link": null
+	},
+	{
+		"date": "Jul 2022",
+		"badge": "AWARD",
+		"text": "Received Excellent Poster Presentation Awards at KSIC & PHM Korea Conferences",
+		"sub": "Recognized for research on fault diagnosis and condition monitoring for ship auxiliary equipment",
+		"link": null
+	},
+	{
+		"date": "Mar 2021",
+		"badge": null,
+		"text": "Started Master's program at Pusan National University and joined KIMM as a Researcher",
+		"sub": "Advisors: Prof. Songkil Kim & Dr. Taehyun Lee",
+		"link": null
+	},
+	{
+		"date": "Feb 2021",
+		"badge": null,
+		"text": "Graduated with B.S. in Mechanical Engineering from Pusan National University",
+		"sub": null,
+		"link": null
+	}
+]

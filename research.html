@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Research overview of Songho Lee.">
+	<title>Research &mdash; Songho Lee</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<script>
+		(function () {
+			var stored = localStorage.getItem("theme-preference");
+			var theme = stored || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+			document.documentElement.setAttribute("data-theme", theme);
+		})();
+	</script>
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="research" class="active">
+
+<nav>
+	<div class="wrap">
+		<div class="nav-links">
+			<a href="index.html" data-page="index">home</a>
+			<a href="research.html" data-page="research" class="active">research</a>
+			<a href="publications.html" data-page="publications">publications</a>
+			<a href="talks.html" data-page="talks">conferences</a>
+			<a href="news.html" data-page="news">news</a>
+			<a href="contact.html" data-page="contact">CV</a>
+		</div>
+		<button class="theme-btn" id="theme-toggle" aria-label="Toggle color theme">dark</button>
+	</div>
+</nav>
+
+<div class="page-header wrap">
+	<h1>research</h1>
+	<p class="desc">
+		My research explores the intersection of <em>artificial intelligence, computational solid mechanics, and data-driven design</em>. 
+		I aim to develop autonomous, efficient engineering workflows using Physics-Informed Machine Learning (PIML) and mechanical-domain AI agent systems.
+	</p>
+</div>
+
+<section>
+	<div class="wrap">
+		<div class="thread is-open">
+			<div class="thread-toggle">
+				<h3>Agentic AI <span class="badge badge-status" style="margin-left: 8px;">UPCOMING</span></h3>
+				<span class="thread-chevron">▼</span>
+			</div>
+			<div class="thread-body">
+				<p>
+					I am exploring mechanical-domain AI agent systems that automate engineering workflows for design exploration, physics-consistent analysis, and condition-based decision-making. 
+				</p>
+			</div>
+		</div>
+
+		<div class="thread is-open">
+			<div class="thread-toggle">
+				<h3>Physics-Informed Machine Learning (PIML)</h3>
+				<span class="thread-chevron">▼</span>
+			</div>
+			<div class="thread-body">
+				<p>
+					Traditional finite element methods (FEM) for thermo-mechanical analysis often suffer from high computational costs, especially in inverse design scenarios. My research focuses on integrating physical laws directly into neural network architectures to create fast, reliable, and physics-consistent surrogate models. This includes applying Physics-Informed Neural Networks (PINNs) and neural operators for forward and inverse analysis of mechanical systems.
+				</p>
+				<figure class="thread-figure">
+					<img src="assets/img/pinn_teg.jpg" alt="PINN for Thermoelectric Properties">
+				</figure>
+				<div class="thread-refs" style="margin-top: 12px; border-top: none; padding-top: 0;">
+					Related paper: <a href="https://doi.org/10.1038/s41524-025-01769-1" target="_blank" rel="noopener">Moon et al. (2025)</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="thread is-open">
+			<div class="thread-toggle">
+				<h3>Design Optimization</h3>
+				<span class="thread-chevron">▼</span>
+			</div>
+			<div class="thread-body">
+				<p>
+					I develop data-efficient methodologies to optimize mechanical designs and manufacturing processes. By utilizing reinforcement learning and surrogate models, we can inversely design complex structures, such as programmable mechanical structures and temperature-responsive 4D printed composites, for specific target performances. My work also explores autonomous mechanical-domain AI agent systems that orchestrate design exploration and physics-consistent decision making.
+				</p>
+				<figure class="thread-figure">
+					<img src="assets/img/rl_ac.jpg" alt="Inverse Design of Active Composite">
+				</figure>
+				<div class="thread-refs" style="margin-top: 12px;  border-top: none; padding-top: 0;">
+					Related paper: <a href="https://doi.org/10.1039/D6MH00239K" target="_blank" rel="noopener">Lee et al. (2026)</a>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="thread is-open">
+			<div class="thread-toggle">
+				<h3>Data-driven AI for Industrial Application</h3>
+				<span class="thread-chevron">▼</span>
+			</div>
+			<div class="thread-body">
+				<p>
+					Ensuring the reliability of industrial systems, such as ship auxiliary equipment and biomedical devices, is crucial. My research involves applying signal processing (e.g., wavelet packet decomposition) and machine learning (e.g., CNNs, SVMs) to sensor data for fault diagnosis and condition-based maintenance. I have developed multi-feature anomaly detection frameworks and health indices to predict failures and assess degradation in real-time.
+				</p>
+				<figure class="thread-figure">
+					<img src="assets/img/fl_im.png" alt="Federated Learning in Injection Molding">
+				</figure>
+				<div class="thread-refs" style="margin-top: 12px; margin-bottom: 32px; border-top: none; padding-top: 0;">
+					Related paper: <a href="https://doi.org/10.1007/s12541-026-01546-0" target="_blank" rel="noopener">Kim et al. (2026)</a>
+				</div>
+				<figure class="thread-figure">
+					<img src="assets/img/ad_gerd.jpg" alt="Anomaly Detection for GERD">
+				</figure>
+				<div class="thread-refs" style="margin-top: 12px; margin-bottom: 32px; border-top: none; padding-top: 0;">
+					Related paper: <a href="https://doi.org/10.1038/s41746-026-02796-y" target="_blank" rel="noopener">Lee et al. (2026)</a>
+				</div>
+				<figure class="thread-figure">
+					<img src="assets/img/marine_deep_learning.png" alt="Marine Engine Fault Diagnosis">
+				</figure>
+				<div class="thread-refs" style="margin-top: 12px; margin-bottom: 32px; border-top: none; padding-top: 0;">
+					Related paper: <a href="https://doi.org/10.3390/pr10071345" target="_blank" rel="noopener">Kim et al. (2022)</a>
+				</div>
+				<figure class="thread-figure">
+					<img src="assets/img/wavelet_oil_purifier.png" alt="Wavelet Decomposition for Oil Purifier">
+				</figure>
+				<div class="thread-refs" style="margin-top: 12px; border-top: none; padding-top: 0;">
+					Related paper: <a href="https://doi.org/10.3390/pr10081468" target="_blank" rel="noopener">Lee et al. (2022)</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="site-footer">
+	<div class="wrap">
+		<div class="copyright">
+			&copy; <span id="copyright-year"></span> Songho Lee
+			&nbsp&nbsp&nbsp&nbsp&middot;&nbsp&nbsp&nbsp&nbsp
+			Dept. of Mech. Eng., KAIST
+			&nbsp&nbsp&nbsp&nbsp&middot;&nbsp&nbsp&nbsp&nbsp
+			<a href="mailto:dlrm741@kaist.ac.kr">dlrm741@kaist.ac.kr</a>
+			&nbsp&nbsp&nbsp&nbsp&middot;&nbsp&nbsp&nbsp&nbsp
+			Last updated: Jul 2026
+		</div>
+	</div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="News and updates from Songho Lee.">
+	<title>News &mdash; Songho Lee</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<script>
+		(function () {
+			var stored = localStorage.getItem("theme-preference");
+			var theme = stored || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+			document.documentElement.setAttribute("data-theme", theme);
+		})();
+	</script>
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="news" class="active">
+
+<nav>
+	<div class="wrap">
+		<div class="nav-links">
+			<a href="index.html" data-page="index">home</a>
+			<a href="research.html" data-page="research">research</a>
+			<a href="publications.html" data-page="publications">publications</a>
+			<a href="talks.html" data-page="talks">conferences</a>
+			<a href="news.html" data-page="news" class="active">news</a>
+			<a href="contact.html" data-page="contact">CV</a>
+		</div>
+		<button class="theme-btn" id="theme-toggle" aria-label="Toggle color theme">dark</button>
+	</div>
+</nav>
+
+<div class="page-header wrap">
+	<h1>news</h1>
+</div>
+
+<section>
+	<div class="wrap">
+		<ul class="news-list" id="news-list-auto"></ul>
+	</div>
+</section>
+
+<footer class="site-footer">
+	<div class="wrap">
+		<div class="copyright">
+			&copy; <span id="copyright-year"></span> Songho Lee
+			&nbsp&nbsp&nbsp&nbsp&middot;&nbsp&nbsp&nbsp&nbsp
+			Dept. of Mech. Eng., KAIST
+			&nbsp&nbsp&nbsp&nbsp&middot;&nbsp&nbsp&nbsp&nbsp
+			<a href="mailto:dlrm741@kaist.ac.kr">dlrm741@kaist.ac.kr</a>
+			&nbsp&nbsp&nbsp&nbsp&middot;&nbsp&nbsp&nbsp&nbsp
+			Last updated: Jul 2026
+		</div>
+	</div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

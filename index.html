@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Songho Lee — Ph.D. Candidate in Mechanical Engineering, KAIST">
+	<title>Songho Lee</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<script>
+		(function () {
+			var stored = localStorage.getItem("theme-preference");
+			var theme = stored || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+			document.documentElement.setAttribute("data-theme", theme);
+		})();
+	</script>
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="index" class="active">
+
+<nav>
+	<div class="wrap">
+		<div class="nav-links">
+			<a href="index.html" data-page="index" class="active">home</a>
+			<a href="research.html" data-page="research">research</a>
+			<a href="publications.html" data-page="publications">publications</a>
+			<a href="talks.html" data-page="talks">conferences</a>
+			<a href="news.html" data-page="news">news</a>
+			<a href="contact.html" data-page="contact">CV</a>
+		</div>
+		<button class="theme-btn" id="theme-toggle" aria-label="Toggle color theme">dark</button>
+	</div>
+</nav>
+
+<header class="hero">
+	<div class="wrap">
+		<div class="hero-body">
+			<div class="hero-photo">
+				<img src="assets/profile.jpg" alt="Songho Lee" onerror="this.src='https://ui-avatars.com/api/?name=Songho+Lee&background=1e293b&color=14b8a6&size=400&font-size=0.33'">
+			</div>
+			<div class="hero-text">
+				<h1>Songho Lee (<span class="name-kr">이송호</span>)</h1>
+				<div class="spacer" style="height: 8px;"></div>
+				<div class="eyebrow">
+					Ph.D. Candidate &mdash; Mechanical Engineering, KAIST
+				</div>
+				<p class="role">
+					Hi, I am <em>Songho Lee</em>, a Ph.D. candidate in Mechanical Engineering at the Korea Advanced Institute of Science and Technology (KAIST), advised by Prof. Seunghwa Ryu. I previously received my M.S. from Pusan National University and worked as a researcher at the Korea Institute of Machinery and Materials (KIMM), where I focused on condition monitoring and fault diagnosis for autonomous ship engine systems.
+					<br><br>My research bridges mechanical engineering domain knowledge, physics-based modeling, and AI. I focus on developing <em>AI-CAE and Physics-Informed Machine Learning (PIML)</em> frameworks for condition diagnosis, forward analysis, and inverse design. My current research interests include mechanical-domain AI agent systems that automate engineering workflows to reduce repetitive analysis, enhance user convenience, and support decision-making.
+				</p>
+				<div class="links">
+					<a href="https://scholar.google.co.kr/citations?user=7yb-KM0AAAAJ&hl=ko" target="_blank" rel="noopener">Google Scholar</a>
+					<a href="https://www.linkedin.com/in/%EC%86%A1%ED%98%B8-%EC%9D%B4-5206541b3/" target="_blank" rel="noopener">LinkedIn</a>
+					<a href="https://orcid.org/0000-0003-4845-4063" target="_blank" rel="noopener">ORCID</a>
+					<a href="https://github.com/leesongho" target="_blank" rel="noopener">GitHub</a>
+					<a href="mailto:dlrm741@kaist.ac.kr">dlrm741@kaist.ac.kr</a>
+				</div>
+				<div class="spacer" style="height: 8px;"></div>
+				<p style="margin-top:14px; margin-right:0px; text-align:right;"><a href="research.html">Full research overview &rarr;</a></p>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section id="news">
+	<div class="wrap">
+		<h2>News</h2>
+		<ul class="news-list" id="news-list-auto" data-limit="5"></ul>
+		<p style="margin-top:14px; text-align:right;"><a href="news.html">All news &rarr;</a></p>
+	</div>
+</section>
+
+<footer class="site-footer">
+	<div class="wrap">
+		<div class="copyright">
+			&copy; <span id="copyright-year"></span> Songho Lee
+			&nbsp&nbsp&nbsp&nbsp&middot;&nbsp&nbsp&nbsp&nbsp
+			Dept. of Mech. Eng., KAIST
+			&nbsp&nbsp&nbsp&nbsp&middot;&nbsp&nbsp&nbsp&nbsp
+			<a href="mailto:dlrm741@kaist.ac.kr">dlrm741@kaist.ac.kr</a>
+			&nbsp&nbsp&nbsp&nbsp&middot;&nbsp&nbsp&nbsp&nbsp
+			Last updated: Jul 2026
+		</div>
+	</div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
