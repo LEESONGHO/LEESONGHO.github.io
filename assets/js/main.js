@@ -28,7 +28,7 @@
 						const items = [
 				{
 					"date": "Jul 2026",
-					"badge": "UPCOMING",
+					"badge": "NEW",
 					"text": "Oral presentation at <a href=\"https://wccm-eccomas2026.org\" target=\"_blank\" rel=\"noopener\">WCCM-ECCOMAS 2026</a> (Munich, Germany)",
 					"sub": "In Session MS344 - Agentic AI and Physics-Informed Machine Learning for Next-Generation Design and Manufacturing",
 					"link": null
