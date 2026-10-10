@@ -28,28 +28,28 @@
 						const items = [
 				{
 					"date": "Jul 2026",
-					"badge": "NEW",
+					"badge": null,
 					"text": "Oral presentation at <a href=\"https://wccm-eccomas2026.org\" target=\"_blank\" rel=\"noopener\">WCCM-ECCOMAS 2026</a> (Munich, Germany)",
 					"sub": "In Session MS344 - Agentic AI and Physics-Informed Machine Learning for Next-Generation Design and Manufacturing",
 					"link": null
 				},
 				{
 					"date": "May 2026",
-					"badge": "NEW",
+					"badge": null,
 					"text": "Paper on Reassessing Negative 24 h pH Impedance Tests accepted in <em>npj Digital Medicine</em>",
 					"sub": "First author paper on multi-feature anomaly detection for hidden GERD diagnosis.",
 					"link": null
 				},
 				{
 					"date": "Apr 2026",
-					"badge": "NEW",
+					"badge": null,
 					"text": "Paper on Inverse Design of Thermally Active Composite accepted in <em>Materials Horizons</em>",
 					"sub": "Co-first author paper on policy-transferred reinforcement learning.",
 					"link": null
 				},
 				{
 					"date": "Mar 2026",
-					"badge": "NEW",
+					"badge": null,
 					"text": "Paper on Federated Learning for Privacy-Preserving Quality Prediction accepted in <em>International Journal of Precision Engineering and Manufacturing</em>",
 					"sub": "Co-first author paper on federated learning in injection molding industry.",
 					"link": null
